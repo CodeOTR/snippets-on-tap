@@ -1,6 +1,30 @@
 # Convert Code to VSCode Snippet
 
-[View on COTR](https://cotr.dev/snippet/363)
+[View, Screenshot, Remix, or Edit on COTR](https://cotr.dev/snippet/363)
+
+## Code Snippet
+```
+function convertCodeToSnippet(): string {
+  // Get form values
+  const description = title;
+  const tabTrigger = "test";
+
+  // Generate VSCode snippet
+  const snippet = `"${description}": {
+  "prefix": "${tabTrigger}",
+  "body": [
+    ${code
+      .split("\n")
+      .map((line: string) => `"${line.replace(/"/g, '\\"')}"`)
+      .join(",\n    ")}
+  ],
+  "description": "${description}"
+}`;
+
+  console.log(snippet);
+  return snippet;
+}
+```
 
 ## Description
 **Explanation:**
@@ -28,27 +52,3 @@ The `convertCodeToSnippet()` function provides a convenient way to create and us
 
 ## Tags
 javascript, vscode, snippet
-
-## Code Snippet
-```
-function convertCodeToSnippet(): string {
-  // Get form values
-  const description = title;
-  const tabTrigger = "test";
-
-  // Generate VSCode snippet
-  const snippet = `"${description}": {
-  "prefix": "${tabTrigger}",
-  "body": [
-    ${code
-      .split("\n")
-      .map((line: string) => `"${line.replace(/"/g, '\\"')}"`)
-      .join(",\n    ")}
-  ],
-  "description": "${description}"
-}`;
-
-  console.log(snippet);
-  return snippet;
-}
-```

@@ -1,12 +1,6 @@
 # Extract RGB Values from Hexadecimal String
 
-[View on COTR](https://cotr.dev/snippet/342)
-
-## Description
-Converts a hexadecimal color (e.g. #FFFFFF) to its RGB representation ({r, g, b, a}).
-
-## Tags
-typescript, hex, rgb, color, conversion
+[View, Screenshot, Remix, or Edit on COTR](https://cotr.dev/snippet/342)
 
 ## Code Snippet
 ```
@@ -22,3 +16,9 @@ const hexToRgb = (hex: string) => {
     : null;
 };
 ```
+
+## Description
+Converts a hexadecimal color (e.g. #FFFFFF) to its RGB representation ({r, g, b, a}).
+
+## Tags
+typescript, hex, rgb, color, conversion

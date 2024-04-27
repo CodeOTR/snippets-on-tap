@@ -1,12 +1,6 @@
 # Create Match Tasks Function Using Embedding Similarity
 
-[View on COTR](https://cotr.dev/snippet/346)
-
-## Description
-null
-
-## Tags
-sql, database, function, query, table, tags
+[View, Screenshot, Remix, or Edit on COTR](https://cotr.dev/snippet/346)
 
 ## Code Snippet
 ```
@@ -37,3 +31,9 @@ or replace function match_tasks (
   limit match_count;
 $$;
 ```
+
+## Description
+null
+
+## Tags
+sql, database, function, query, table, tags

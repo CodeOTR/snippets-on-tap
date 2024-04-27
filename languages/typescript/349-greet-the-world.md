@@ -1,6 +1,11 @@
 # Greet the World
 
-[View on COTR](https://cotr.dev/snippet/349)
+[View, Screenshot, Remix, or Edit on COTR](https://cotr.dev/snippet/349)
+
+## Code Snippet
+```
+print('Hello Word')
+```
 
 ## Description
 This code snippet is written in Python and it prints a message to the standard output.
@@ -9,8 +14,3 @@ In this case, the string is 'Hello Word', so the output will be 'Hello Word' fol
 
 ## Tags
 hello-world, print, string
-
-## Code Snippet
-```
-print('Hello Word')
-```

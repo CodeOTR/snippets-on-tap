@@ -1,12 +1,6 @@
 # Get Complementary Color
 
-[View on COTR](https://cotr.dev/snippet/343)
-
-## Description
-Returns the complementary color (RGB) of a given color with customizable alpha transparency.
-
-## Tags
-color, manipulation, react-color, utils
+[View, Screenshot, Remix, or Edit on COTR](https://cotr.dev/snippet/343)
 
 ## Code Snippet
 ```
@@ -21,3 +15,9 @@ export function getComplementaryColor(color: RGBColor, alpha: number = .2): RGBC
   };
 }
 ```
+
+## Description
+Returns the complementary color (RGB) of a given color with customizable alpha transparency.
+
+## Tags
+color, manipulation, react-color, utils

@@ -1,6 +1,28 @@
 # Convert to Title Case
 
-[View on COTR](https://cotr.dev/snippet/361)
+[View, Screenshot, Remix, or Edit on COTR](https://cotr.dev/snippet/361)
+
+## Code Snippet
+```
+/**
+ * Converts a string to title case.
+ *
+ * @param value The string to convert.
+ * @returns The string in title case.
+ */
+function toTitleCase(value: string): string {
+  // Check for invalid input
+  if (!value || typeof value !== 'string') {
+    throw new Error('Invalid input: must be a non-empty string');
+  }
+
+  // Convert to title case
+  const titleCase = value.split(' ').map((word) => word[0].toUpperCase() + word.slice(1)).join(' ');
+
+  // Return the result
+  return titleCase;
+}
+```
 
 ## Description
 **Explanation:**
@@ -30,25 +52,3 @@ If you call the function with `toTitleCase('hello world')`, it will return `Hell
 
 ## Tags
 string, formatting, title case, uppercase
-
-## Code Snippet
-```
-/**
- * Converts a string to title case.
- *
- * @param value The string to convert.
- * @returns The string in title case.
- */
-function toTitleCase(value: string): string {
-  // Check for invalid input
-  if (!value || typeof value !== 'string') {
-    throw new Error('Invalid input: must be a non-empty string');
-  }
-
-  // Convert to title case
-  const titleCase = value.split(' ').map((word) => word[0].toUpperCase() + word.slice(1)).join(' ');
-
-  // Return the result
-  return titleCase;
-}
-```

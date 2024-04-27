@@ -1,6 +1,37 @@
 # Detect Clicks Outside and Inside an Element
 
-[View on COTR](https://cotr.dev/snippet/347)
+[View, Screenshot, Remix, or Edit on COTR](https://cotr.dev/snippet/347)
+
+## Code Snippet
+```
+export function useOutsideAlerter({
+  ref,
+  onClickOutside,
+  onClickInside,
+}: {
+  ref: React.RefObject<HTMLElement>;
+  onClickOutside: () => void;
+  onClickInside: () => void;
+}) {
+  useEffect(() => {
+    function handleClickOutside(event: MouseEvent) {
+      if (ref.current && !ref.current.contains(event.target as Node)) {
+        console.log("You clicked outside of me!");
+        onClickOutside();
+      } else {
+        console.log("You clicked inside of me!");
+        onClickInside();
+      }
+    }
+    // Bind the event listener
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      // Unbind the event listener on clean up
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [ref]);
+}
+```
 
 ## Description
 This code snippet defines a custom React hook called `useOutsideAlerter`. The purpose of this hook is to detect clicks outside or inside a specific component and execute corresponding callback functions.
@@ -50,34 +81,3 @@ Now, whenever a click occurs outside or inside the `MyComponent`, the correspond
 
 ## Tags
 javascript, react, hooks, useeffect, outside-click-detection
-
-## Code Snippet
-```
-export function useOutsideAlerter({
-  ref,
-  onClickOutside,
-  onClickInside,
-}: {
-  ref: React.RefObject<HTMLElement>;
-  onClickOutside: () => void;
-  onClickInside: () => void;
-}) {
-  useEffect(() => {
-    function handleClickOutside(event: MouseEvent) {
-      if (ref.current && !ref.current.contains(event.target as Node)) {
-        console.log("You clicked outside of me!");
-        onClickOutside();
-      } else {
-        console.log("You clicked inside of me!");
-        onClickInside();
-      }
-    }
-    // Bind the event listener
-    document.addEventListener("mousedown", handleClickOutside);
-    return () => {
-      // Unbind the event listener on clean up
-      document.removeEventListener("mousedown", handleClickOutside);
-    };
-  }, [ref]);
-}
-```

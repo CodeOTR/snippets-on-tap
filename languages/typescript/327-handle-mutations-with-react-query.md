@@ -1,12 +1,6 @@
 # Handle Mutations with React Query
 
-[View on COTR](https://cotr.dev/snippet/327)
-
-## Description
-This React component uses the `useMutation` hook from `react-query` to handle asynchronous data fetching for adding a new todo item through an HTTP POST request. It provides a custom interface for managing the mutation's lifecycle, including handling loading, success, error, and finally settled states, and updates the UI accordingly.
-
-## Tags
-react, hooks, useMutation, apollo, graphql, axios, post, optimistic-update
+[View, Screenshot, Remix, or Edit on COTR](https://cotr.dev/snippet/327)
 
 ## Code Snippet
 ```
@@ -54,3 +48,9 @@ react, hooks, useMutation, apollo, graphql, axios, post, optimistic-update
     </div>
   )
 ```
+
+## Description
+This React component uses the `useMutation` hook from `react-query` to handle asynchronous data fetching for adding a new todo item through an HTTP POST request. It provides a custom interface for managing the mutation's lifecycle, including handling loading, success, error, and finally settled states, and updates the UI accordingly.
+
+## Tags
+react, hooks, useMutation, apollo, graphql, axios, post, optimistic-update

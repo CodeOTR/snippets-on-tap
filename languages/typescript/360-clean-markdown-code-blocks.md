@@ -1,35 +1,6 @@
 # Clean Markdown Code Blocks
 
-[View on COTR](https://cotr.dev/snippet/360)
-
-## Description
-**Explanation:**
-
-The provided JavaScript function, `cleanMarkdownCodeBlock`, is designed to take a raw Markdown string (`update`) as input and extract and clean up any code blocks within it.
-
-- **Regular Expression Pattern (pattern):**
-   This pattern is used to identify Markdown code blocks. It matches blocks that have a first line starting with any characters (`(.*)`), followed by one or more lines of code (`(.*\n)*`), and ends with a blank line.
-
-- **Matching Code Blocks (matches):**
-   The `matchAll` function is used to match all instances of code blocks in the input string.
-
-- **Iterating Over Matches:**
-   If any code blocks are found, the function iterates through each match.
-
-- **Extracting Language and Code:**
-   - `match[1]`: This captures the first line of the code block and represents the language.
-   - `match[2]`: This captures the remaining lines of the code block and represents the actual code.
-
-- **Cleaning the Code:**
-   The code is cleaned by removing the language from the first line and trimming any leading or trailing whitespace.
-
-- **Setting Snippet and Language:**
-   Once the code is cleaned, it is set as the snippet. The language is also set for the snippet.
-
-By using this function, you can clean up Markdown code blocks and extract the code and language information, making it easier to use in a code editor or for other purposes.
-
-## Tags
-markdown, code block, regular expression
+[View, Screenshot, Remix, or Edit on COTR](https://cotr.dev/snippet/360)
 
 ## Code Snippet
 ```
@@ -64,3 +35,32 @@ markdown, code block, regular expression
     }
   }
 ```
+
+## Description
+**Explanation:**
+
+The provided JavaScript function, `cleanMarkdownCodeBlock`, is designed to take a raw Markdown string (`update`) as input and extract and clean up any code blocks within it.
+
+- **Regular Expression Pattern (pattern):**
+   This pattern is used to identify Markdown code blocks. It matches blocks that have a first line starting with any characters (`(.*)`), followed by one or more lines of code (`(.*\n)*`), and ends with a blank line.
+
+- **Matching Code Blocks (matches):**
+   The `matchAll` function is used to match all instances of code blocks in the input string.
+
+- **Iterating Over Matches:**
+   If any code blocks are found, the function iterates through each match.
+
+- **Extracting Language and Code:**
+   - `match[1]`: This captures the first line of the code block and represents the language.
+   - `match[2]`: This captures the remaining lines of the code block and represents the actual code.
+
+- **Cleaning the Code:**
+   The code is cleaned by removing the language from the first line and trimming any leading or trailing whitespace.
+
+- **Setting Snippet and Language:**
+   Once the code is cleaned, it is set as the snippet. The language is also set for the snippet.
+
+By using this function, you can clean up Markdown code blocks and extract the code and language information, making it easier to use in a code editor or for other purposes.
+
+## Tags
+markdown, code block, regular expression

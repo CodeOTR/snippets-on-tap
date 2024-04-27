@@ -1,12 +1,6 @@
 # Get Gemini Text Embedding
 
-[View on COTR](https://cotr.dev/snippet/333)
-
-## Description
-Utility function to generate a text embedding using the Gemini AI API's embedding-001 model.
-
-## Tags
-ai, completion, gemini, embedding, javascript
+[View, Screenshot, Remix, or Edit on COTR](https://cotr.dev/snippet/333)
 
 ## Code Snippet
 ```
@@ -25,3 +19,9 @@ export const getGeminiEmbedding = async (content: string) => {
   }
 };
 ```
+
+## Description
+Utility function to generate a text embedding using the Gemini AI API's embedding-001 model.
+
+## Tags
+ai, completion, gemini, embedding, javascript

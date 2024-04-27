@@ -1,20 +1,6 @@
 # Syntax Highlighting with Selectable Lines
 
-[View on COTR](https://cotr.dev/snippet/341)
-
-## Description
-- Displays code with syntax highlighting using SyntaxHighlighter.
-- Line numbers can be displayed, with configurable styling.
-- Long lines are wrapped.
-- Code language can be specified.
-- Uses the atomOneDark theme by default.
-- Custom style properties are applied to the code block.
-- Allows for line selection, with highlighted lines in red.
-- Line hovering is supported, highlighting lines in a lighter red.
-- Line selection is persistent and can be toggled on and off by clicking on lines.
-
-## Tags
-react, javascript, syntax highlighting, line numbers, code editor
+[View, Screenshot, Remix, or Edit on COTR](https://cotr.dev/snippet/341)
 
 ## Code Snippet
 ```
@@ -59,3 +45,17 @@ react, javascript, syntax highlighting, line numbers, code editor
   {snippet}
 </SyntaxHighlighter>
 ```
+
+## Description
+- Displays code with syntax highlighting using SyntaxHighlighter.
+- Line numbers can be displayed, with configurable styling.
+- Long lines are wrapped.
+- Code language can be specified.
+- Uses the atomOneDark theme by default.
+- Custom style properties are applied to the code block.
+- Allows for line selection, with highlighted lines in red.
+- Line hovering is supported, highlighting lines in a lighter red.
+- Line selection is persistent and can be toggled on and off by clicking on lines.
+
+## Tags
+react, javascript, syntax highlighting, line numbers, code editor

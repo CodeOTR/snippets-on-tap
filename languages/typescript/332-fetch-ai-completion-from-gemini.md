@@ -1,12 +1,6 @@
 # Fetch AI Completion from Gemini
 
-[View on COTR](https://cotr.dev/snippet/332)
-
-## Description
-The provided code snippet defines an asynchronous function, `getGeminiCompletion`, which utilizes the Gemini AI API to generate a text response based on a given prompt. It takes a `prompt` and an optional `model` parameter and attempts to use Gemini's generative model to produce a completion.
-
-## Tags
-completion,  generative AI,  natural language processing,  NLP,  text generation,  language model
+[View, Screenshot, Remix, or Edit on COTR](https://cotr.dev/snippet/332)
 
 ## Code Snippet
 ```
@@ -35,3 +29,9 @@ export const getGeminiCompletion = async ({
 
 
 ```
+
+## Description
+The provided code snippet defines an asynchronous function, `getGeminiCompletion`, which utilizes the Gemini AI API to generate a text response based on a given prompt. It takes a `prompt` and an optional `model` parameter and attempts to use Gemini's generative model to produce a completion.
+
+## Tags
+completion,  generative AI,  natural language processing,  NLP,  text generation,  language model

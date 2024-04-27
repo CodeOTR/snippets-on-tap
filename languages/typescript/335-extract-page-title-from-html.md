@@ -1,12 +1,6 @@
 # Extract Page Title from HTML
 
-[View on COTR](https://cotr.dev/snippet/335)
-
-## Description
-This JavaScript code snippet uses the Cheerio library to extract the title of a web page from HTML. It looks for the `<title>` tag and if not found, it looks for the `<meta>` tag with the `property` attribute set to `og:title`.
-
-## Tags
-cheerio,  web scraping,  HTML parsing,  DOM manipulation,  title extraction
+[View, Screenshot, Remix, or Edit on COTR](https://cotr.dev/snippet/335)
 
 ## Code Snippet
 ```
@@ -22,3 +16,9 @@ export function extractTitle(html: cheerio.CheerioAPI) {
   return data;
 }
 ```
+
+## Description
+This JavaScript code snippet uses the Cheerio library to extract the title of a web page from HTML. It looks for the `<title>` tag and if not found, it looks for the `<meta>` tag with the `property` attribute set to `og:title`.
+
+## Tags
+cheerio,  web scraping,  HTML parsing,  DOM manipulation,  title extraction

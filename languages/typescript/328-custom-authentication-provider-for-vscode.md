@@ -1,12 +1,6 @@
 # Custom Authentication Provider for VSCode
 
-[View on COTR](https://cotr.dev/snippet/328)
-
-## Description
-This code defines an Authentication Provider for Visual Studio Code. It allows users to authenticate with the Auth0 identity provider and manages authentication sessions. The `AuthenticationProvider` interface defines methods for getting and creating sessions, and the `Disposable` interface provides a way to dispose of the registered services.
-
-## Tags
-authentication, vscode, auth0, authentication-provider
+[View, Screenshot, Remix, or Edit on COTR](https://cotr.dev/snippet/328)
 
 ## Code Snippet
 ```
@@ -63,3 +57,9 @@ export class Auth0AuthenticationProvider implements AuthenticationProvider, Disp
   }
 }
 ```
+
+## Description
+This code defines an Authentication Provider for Visual Studio Code. It allows users to authenticate with the Auth0 identity provider and manages authentication sessions. The `AuthenticationProvider` interface defines methods for getting and creating sessions, and the `Disposable` interface provides a way to dispose of the registered services.
+
+## Tags
+authentication, vscode, auth0, authentication-provider

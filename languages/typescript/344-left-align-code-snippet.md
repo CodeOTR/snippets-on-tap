@@ -1,12 +1,6 @@
 # Left Align Code Snippet
 
-[View on COTR](https://cotr.dev/snippet/344)
-
-## Description
-Button to left-align the code snippet in the text editor.
-
-## Tags
-javascript, react
+[View, Screenshot, Remix, or Edit on COTR](https://cotr.dev/snippet/344)
 
 ## Code Snippet
 ```
@@ -33,3 +27,9 @@ javascript, react
   Left Align
 </button>
 ```
+
+## Description
+Button to left-align the code snippet in the text editor.
+
+## Tags
+javascript, react

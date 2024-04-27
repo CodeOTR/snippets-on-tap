@@ -1,12 +1,6 @@
 # Get Gemini Token Count
 
-[View on COTR](https://cotr.dev/snippet/334)
-
-## Description
-Estimates the number of tokens in a given input string using the Gemini language model.
-
-## Tags
-ChatGPT,  text generation,  AI language model,  Gemini Pro,  token counting
+[View, Screenshot, Remix, or Edit on COTR](https://cotr.dev/snippet/334)
 
 ## Code Snippet
 ```
@@ -23,3 +17,9 @@ export const getGeminiTokenCount = async (content: string) => {
   }
 };
 ```
+
+## Description
+Estimates the number of tokens in a given input string using the Gemini language model.
+
+## Tags
+ChatGPT,  text generation,  AI language model,  Gemini Pro,  token counting

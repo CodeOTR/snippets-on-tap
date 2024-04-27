@@ -1,6 +1,17 @@
 # DaisyUI Dropdown
 
-[View on COTR](https://cotr.dev/snippet/358)
+[View, Screenshot, Remix, or Edit on COTR](https://cotr.dev/snippet/358)
+
+## Code Snippet
+```
+<details className="dropdown">
+  <summary className="m-1 btn">open or close</summary>
+  <ul className="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
+    <li><a>Item 1</a></li>
+    <li><a>Item 2</a></li>
+  </ul>
+</details>
+```
 
 ## Description
 The given snippet represents a [DaisyUI](https://daisyui.com/components/dropdown/) dropdown menu component that uses the `details` and `summary` elements to create a collapsible menu.
@@ -37,14 +48,3 @@ The given snippet represents a [DaisyUI](https://daisyui.com/components/dropdown
 
 ## Tags
 details, summary, ul, li, a
-
-## Code Snippet
-```
-<details className="dropdown">
-  <summary className="m-1 btn">open or close</summary>
-  <ul className="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
-    <li><a>Item 1</a></li>
-    <li><a>Item 2</a></li>
-  </ul>
-</details>
-```

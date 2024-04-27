@@ -1,15 +1,6 @@
 # HTML to Image Screenshot Capture
 
-[View on COTR](https://cotr.dev/snippet/340)
-
-## Description
-- Function `captureScreenshot` captures a screenshot of a DOM element (`#screenshot-container`)
-- Utilizes `htmlToImage` library to convert HTML element to a PNG image
-- Creates an image element and downloads the captured image when the promise resolves
-- In case of an error, logs the error to the console
-
-## Tags
-javascript, canvas, screenshot, image, image-download
+[View, Screenshot, Remix, or Edit on COTR](https://cotr.dev/snippet/340)
 
 ## Code Snippet
 ```
@@ -32,3 +23,12 @@ javascript, canvas, screenshot, image, image-download
     });
 };
 ```
+
+## Description
+- Function `captureScreenshot` captures a screenshot of a DOM element (`#screenshot-container`)
+- Utilizes `htmlToImage` library to convert HTML element to a PNG image
+- Creates an image element and downloads the captured image when the promise resolves
+- In case of an error, logs the error to the console
+
+## Tags
+javascript, canvas, screenshot, image, image-download

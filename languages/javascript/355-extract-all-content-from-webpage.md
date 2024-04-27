@@ -1,17 +1,6 @@
 # Extract All Content from Webpage
 
-[View on COTR](https://cotr.dev/snippet/355)
-
-## Description
-This code snippet uses the cheerio library to extract the HTML content from a given URL.
-It takes a URL as an input parameter and returns a promise that resolves to the HTML content or an Axios error if one occurs during the request.
-The code first creates a new URL object from the given URL and extracts the host from it.
-Then, it sends a GET request to the URL using the axios library, passing in the host as a header to prevent CORS issues.
-Once the response is received, it loads the HTML content into a cheerio object and extracts the HTML content using the `$.html()` method.
-Finally, it returns the extracted HTML content or an Axios error if one occurred.
-
-## Tags
-cheerio, web scraping, html parsing, dom manipulation
+[View, Screenshot, Remix, or Edit on COTR](https://cotr.dev/snippet/355)
 
 ## Code Snippet
 ```
@@ -37,3 +26,14 @@ async function extractAllContent(url: string): Promise<string | AxiosError> {
   }
 }
 ```
+
+## Description
+This code snippet uses the cheerio library to extract the HTML content from a given URL.
+It takes a URL as an input parameter and returns a promise that resolves to the HTML content or an Axios error if one occurs during the request.
+The code first creates a new URL object from the given URL and extracts the host from it.
+Then, it sends a GET request to the URL using the axios library, passing in the host as a header to prevent CORS issues.
+Once the response is received, it loads the HTML content into a cheerio object and extracts the HTML content using the `$.html()` method.
+Finally, it returns the extracted HTML content or an Axios error if one occurred.
+
+## Tags
+cheerio, web scraping, html parsing, dom manipulation

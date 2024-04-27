@@ -1,12 +1,6 @@
 #  Convert RGB Values to Hexadecimal
 
-[View on COTR](https://cotr.dev/snippet/345)
-
-## Description
-This code converts RGB (Red, Green, Blue) values to a hexadecimal color string. It ensures the correct format and includes an alpha (transparency) value.
-
-## Tags
-javascript, conversion, color, rgb, hex
+[View, Screenshot, Remix, or Edit on COTR](https://cotr.dev/snippet/345)
 
 ## Code Snippet
 ```
@@ -25,3 +19,9 @@ const rgbToHex = (r: number, g: number, b: number) => {
   return hex;
 };
 ```
+
+## Description
+This code converts RGB (Red, Green, Blue) values to a hexadecimal color string. It ensures the correct format and includes an alpha (transparency) value.
+
+## Tags
+javascript, conversion, color, rgb, hex

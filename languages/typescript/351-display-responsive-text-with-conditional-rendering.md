@@ -1,6 +1,24 @@
 # Display Responsive Text with Conditional Rendering
 
-[View on COTR](https://cotr.dev/snippet/351)
+[View, Screenshot, Remix, or Edit on COTR](https://cotr.dev/snippet/351)
+
+## Code Snippet
+```
+export default function ResponsiveText({
+  longText,
+  shortText,
+}: {
+  longText: string;
+  shortText: string;
+}) {
+  return (
+    <div>
+      <div className="max-sm:hidden">{longText}</div>
+      <div className="sm:hidden">{shortText}</div>
+    </div>
+  );
+}
+```
 
 ## Description
 The provided code snippet is a React functional component called `ResponsiveText` that is used to conditionally render different text content based on the screen size. It takes two mandatory props: `longText` and `shortText`, both of which are strings.
@@ -21,21 +39,3 @@ This component is useful in scenarios where you want to display different conten
 
 ## Tags
 typescript, react, functional component, responsive design, dynamic text
-
-## Code Snippet
-```
-export default function ResponsiveText({
-  longText,
-  shortText,
-}: {
-  longText: string;
-  shortText: string;
-}) {
-  return (
-    <div>
-      <div className="max-sm:hidden">{longText}</div>
-      <div className="sm:hidden">{shortText}</div>
-    </div>
-  );
-}
-```
