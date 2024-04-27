@@ -1,5 +1,7 @@
 # HTML to Image Screenshot Capture
 
+[View on COTR](https://cotr.dev/snippet/340)
+
 ## Description
 - Function `captureScreenshot` captures a screenshot of a DOM element (`#screenshot-container`)
 - Utilizes `htmlToImage` library to convert HTML element to a PNG image

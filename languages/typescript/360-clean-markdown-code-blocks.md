@@ -1,5 +1,7 @@
 # Clean Markdown Code Blocks
 
+[View on COTR](https://cotr.dev/snippet/360)
+
 ## Description
 **Explanation:**
 

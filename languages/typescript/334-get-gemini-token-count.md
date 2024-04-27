@@ -1,5 +1,7 @@
 # Get Gemini Token Count
 
+[View on COTR](https://cotr.dev/snippet/334)
+
 ## Description
 Estimates the number of tokens in a given input string using the Gemini language model.
 

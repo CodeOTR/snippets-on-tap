@@ -1,5 +1,7 @@
 # Copy Code Snippet
 
+[View on COTR](https://cotr.dev/snippet/359)
+
 ## Description
 The given code snippet is written in JavaScript, and it adds a button that can be clicked to copy a piece of code to the clipboard.
 

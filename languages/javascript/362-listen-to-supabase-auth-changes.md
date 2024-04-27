@@ -1,5 +1,7 @@
 # Listen to Supabase Auth Changes
 
+[View on COTR](https://cotr.dev/snippet/362)
+
 ## Description
 **Supabase Auth State Change Listener**
 

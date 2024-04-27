@@ -1,5 +1,7 @@
 # Syntax Highlighting with Selectable Lines
 
+[View on COTR](https://cotr.dev/snippet/341)
+
 ## Description
 - Displays code with syntax highlighting using SyntaxHighlighter.
 - Line numbers can be displayed, with configurable styling.

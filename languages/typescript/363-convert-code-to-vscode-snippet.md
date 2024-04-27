@@ -1,5 +1,7 @@
 # Convert Code to VSCode Snippet
 
+[View on COTR](https://cotr.dev/snippet/363)
+
 ## Description
 **Explanation:**
 

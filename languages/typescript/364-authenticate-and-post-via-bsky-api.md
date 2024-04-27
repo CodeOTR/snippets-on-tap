@@ -1,5 +1,7 @@
 # Authenticate and Post via Bsky API
 
+[View on COTR](https://cotr.dev/snippet/364)
+
 ## Description
 This code snippet demonstrates the usage of '@atproto/api' library to perform authentication and posting actions on the Bsky social network. Here's a breakdown of what the code does:
 

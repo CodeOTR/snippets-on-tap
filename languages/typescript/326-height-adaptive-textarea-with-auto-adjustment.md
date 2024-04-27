@@ -1,5 +1,7 @@
 # Height-Adaptive Textarea with Auto-Adjustment
 
+[View on COTR](https://cotr.dev/snippet/326)
+
 ## Description
 Automatically adjust the height of a textarea to fit its content, preventing overflow and enabling scrolling if needed.
 

@@ -1,5 +1,7 @@
 # Detect Clicks Outside and Inside an Element
 
+[View on COTR](https://cotr.dev/snippet/347)
+
 ## Description
 This code snippet defines a custom React hook called `useOutsideAlerter`. The purpose of this hook is to detect clicks outside or inside a specific component and execute corresponding callback functions.
 

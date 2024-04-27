@@ -1,5 +1,7 @@
 # Toggle Leading Spaces
 
+[View on COTR](https://cotr.dev/snippet/353)
+
 ## Description
 This code snippet creates a button element that, when clicked, toggles the value of a boolean variable named `showBackground`. The button has the following properties:
 

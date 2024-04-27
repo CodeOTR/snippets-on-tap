@@ -1,5 +1,7 @@
 # Greet the World
 
+[View on COTR](https://cotr.dev/snippet/349)
+
 ## Description
 This code snippet is written in Python and it prints a message to the standard output.
 The function `print()` takes a string as argument and displays it.

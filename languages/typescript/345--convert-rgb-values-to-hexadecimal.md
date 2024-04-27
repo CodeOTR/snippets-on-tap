@@ -1,5 +1,7 @@
 #  Convert RGB Values to Hexadecimal
 
+[View on COTR](https://cotr.dev/snippet/345)
+
 ## Description
 This code converts RGB (Red, Green, Blue) values to a hexadecimal color string. It ensures the correct format and includes an alpha (transparency) value.
 

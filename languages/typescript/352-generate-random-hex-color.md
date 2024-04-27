@@ -1,5 +1,7 @@
 # Generate Random Hex Color
 
+[View on COTR](https://cotr.dev/snippet/352)
+
 ## Description
 This code snippet generates a random hexadecimal color code. It uses the `Math.random()` function to generate a random number between 0 and 16777214 (the maximum value of a 24-bit RGB color). It then converts this number to a hexadecimal string using the `toString(16)` method. The result is a string that starts with a "#" followed by six hexadecimal digits.
 

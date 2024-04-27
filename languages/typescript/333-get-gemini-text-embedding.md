@@ -1,5 +1,7 @@
 # Get Gemini Text Embedding
 
+[View on COTR](https://cotr.dev/snippet/333)
+
 ## Description
 Utility function to generate a text embedding using the Gemini AI API's embedding-001 model.
 

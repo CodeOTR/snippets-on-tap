@@ -1,5 +1,7 @@
 # DaisyUI Dropdown
 
+[View on COTR](https://cotr.dev/snippet/358)
+
 ## Description
 The given snippet represents a [DaisyUI](https://daisyui.com/components/dropdown/) dropdown menu component that uses the `details` and `summary` elements to create a collapsible menu.
 

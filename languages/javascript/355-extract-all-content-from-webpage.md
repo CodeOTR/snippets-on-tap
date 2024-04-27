@@ -1,5 +1,7 @@
 # Extract All Content from Webpage
 
+[View on COTR](https://cotr.dev/snippet/355)
+
 ## Description
 This code snippet uses the cheerio library to extract the HTML content from a given URL.
 It takes a URL as an input parameter and returns a promise that resolves to the HTML content or an Axios error if one occurs during the request.

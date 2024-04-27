@@ -1,5 +1,7 @@
 # Capture Screenshot and Download as PNG, Conditionally Hide Title
 
+[View on COTR](https://cotr.dev/snippet/348)
+
 ## Description
 The provided code snippet is a JavaScript function that captures a screenshot of a specific element on a web page and saves it as a PNG file. Here's a step-by-step explanation of what the code does:
 

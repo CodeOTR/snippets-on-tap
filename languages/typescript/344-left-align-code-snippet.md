@@ -1,5 +1,7 @@
 # Left Align Code Snippet
 
+[View on COTR](https://cotr.dev/snippet/344)
+
 ## Description
 Button to left-align the code snippet in the text editor.
 

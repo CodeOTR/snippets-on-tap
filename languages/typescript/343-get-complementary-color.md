@@ -1,5 +1,7 @@
 # Get Complementary Color
 
+[View on COTR](https://cotr.dev/snippet/343)
+
 ## Description
 Returns the complementary color (RGB) of a given color with customizable alpha transparency.
 

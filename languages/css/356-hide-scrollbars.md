@@ -1,5 +1,7 @@
 # Hide Scrollbars
 
+[View on COTR](https://cotr.dev/snippet/356)
+
 ## Description
 The code snippet you provided defines a CSS class named `.no-scrollbar` that hides the scrollbar in Chrome, Safari, Opera, Internet Explorer, Edge, and Firefox. It does this by setting the `display` property of the `::-webkit-scrollbar` pseudo-element to `none` for Chrome, Safari, and Opera, setting the `-ms-overflow-style` property to `none` for Internet Explorer and Edge, and setting the `scrollbar-width` property to `none` for Firefox.
 

@@ -1,5 +1,7 @@
 # Display Responsive Text with Conditional Rendering
 
+[View on COTR](https://cotr.dev/snippet/351)
+
 ## Description
 The provided code snippet is a React functional component called `ResponsiveText` that is used to conditionally render different text content based on the screen size. It takes two mandatory props: `longText` and `shortText`, both of which are strings.
 
